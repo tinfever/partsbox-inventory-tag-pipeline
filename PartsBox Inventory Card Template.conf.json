@@ -1,0 +1,9 @@
+{
+    "data": {
+        "file": "./output_dir/output.csv"
+    },
+    "output": {
+        "pdf": true,
+        "single-sla": false
+    }
+}
