@@ -1,0 +1,2 @@
+Copy partsbox-parts.csv into the main directory and run generate-tags.py for testing.
+output.pdf is an example of the final product for the included example partsbox-parts.csv
