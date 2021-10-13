@@ -29,11 +29,11 @@ Instructions:
 2) Move the downloaded CSV into the extracted git repo folder and make sure the CSV is named "partsbox-parts.csv"   
 3) (Optional) Open "partsbox-parts.csv" in LibreOffice Calc. Delete all lines except for the parts you want to print tags for. This is easier than filtering on the PartsBox.com site. When saving make sure the file name and format haven't changed.  
 4) Run "generate-tags.py" from the command line. This will do the following:  
-	- Append a line index value to the CSV  
+	- Prepend a line index value to the CSV  
 	- Append the future QR code image file name  
 	- Output the modified CSV to ./output_dir/output.csv  
-	- Generate the QR codes in ./output_dir/  
-	- Create a variable placeholder QR code image file for Scribus  
+	- Generate the QR codes in to ./output_dir/  
+	- Create a variable placeholder QR code image file for Scribus (This might not really be necessary but it makes it easy to add the image variable into Scribus)
 	- Start Scribus and execute mail_merge.py on the included template .sla file  
 	- mail_merge.py will create one pdf for each line in CSV  
 	- The script will then merge all the PDFs together and delete the original seperate pdfs  
