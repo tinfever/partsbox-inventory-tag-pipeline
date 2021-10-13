@@ -1,6 +1,6 @@
 PartsBox Inventory Tag Pipeline
 
-<img src="https://user-images.githubusercontent.com/46428760/137184739-f87aa565-82a7-4a25-87ba-d18b2911200f.PNG" width="500">
+<img src="https://user-images.githubusercontent.com/46428760/137186461-85a81e41-d6d7-4ee1-866c-b907d38069da.png" width="500">
 
 This is a set of tools pieced together to automatically generate inventory tags for printing, for your PartsBox.com parts.  
 My use case is to print a 3"x5" index card with the MPN, Manufacturer, Description, Storage Location, and a QR code for quickly looking up the part in PartsBox.  
